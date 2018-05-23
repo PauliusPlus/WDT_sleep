@@ -78,12 +78,12 @@ void sleep(int ncycles)                              // Put the Arduino to deep 
 
 
 void setup () {
-    pinMode (LED, OUTPUT);
-digitalWrite (LED, LOW);
+   pinMode (LED, OUTPUT);
+   digitalWrite (LED, LOW);
    Serial.begin(115200);
    Serial.println();
    Serial.println();
-  Serial.println(F("RF24/examples/GettingStarted_HandlingData"));
+   Serial.println(F("WDT sleep example..."));
   
 } //setup
 
